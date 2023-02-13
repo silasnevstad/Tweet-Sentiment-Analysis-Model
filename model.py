@@ -175,7 +175,7 @@ accuracy = nltk.classify.accuracy(classifier, test_set)
 print("Accuracy on test set:", accuracy)
 
 # Use the model to perform sentiment analysis on new tweets
-new_tweet = "I love when people can't even spell corrently, so sad and frusrtrating. I find it sort of funny but what is wrong with this world"
+new_tweet = "I love python!"
 
 tokens = word_tokenize(new_tweet.lower())
 tokens_filtered = [word for word in tokens if not word in stop_words]
