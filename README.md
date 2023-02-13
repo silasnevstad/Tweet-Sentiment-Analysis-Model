@@ -51,3 +51,4 @@ The model uses the NLTK library for text preprocessing and the scikit-learn libr
 - sklearn.naive_bayes
 - sklearn.feature_extraction.text
 - sklearn.metrics
+<p align="right">(<a href="#top">back to top</a>)</p>
