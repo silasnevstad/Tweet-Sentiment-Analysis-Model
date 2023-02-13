@@ -16,7 +16,8 @@ A machine learning model for sentiment analysis built in python, trained and tes
 <div id="overview"></div>
 
 ## Overview
-  
+This code implements a machine learning model for sentiment analysis on a dataset of Twitter tweets. The model uses natural language processing techniques, including tokenization, stopword removal, stemming, and lemmatization. The model is built using a pipeline that includes a CountVectorizer for feature extraction and a Naive Bayes classifier for classification. The pipeline is tuned using a grid search to optimize hyperparameters. The final model is evaluated on a test set, and its performance is measured using accuracy, precision, recall, and F1 score. The code also includes an example of using the model to perform sentiment analysis on new tweets.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Built With -->
