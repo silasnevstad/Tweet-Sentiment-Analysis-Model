@@ -16,7 +16,7 @@ A machine learning model for sentiment analysis built in python, trained and tes
 <div id="overview"></div>
 
 ## Overview
-This code provides a machine-learning model for sentiment analysis on Twitter data. It first preprocesses the data by tokenizing, removing stopwords, stemming, and lemmatizing the text. Then, the code trains a Naive Bayes classifier on the preprocessed data using the best hyperparameters selected by grid search or random search. The model's performance is evaluated on a validation and test set, and the accuracy, precision, recall, and F1 scores are calculated for each class. Finally, the trained model is used to perform sentiment analysis on new tweets.
+This code provides a machine-learning model for sentiment analysis on Twitter data. It first preprocesses the data by tokenizing, removing stopwords, stemming, and lemmatizing the text. Then, the code trains a Naive Bayes classifier on the preprocessed data using the best hyperparameters selected by grid search or random search (for time convenience). The model's performance is evaluated on a validation and test set, and the accuracy, precision, recall, and F1 scores are calculated for each class. Finally, the trained model can be used to perform sentiment analysis on new tweets.
 
 The model uses the NLTK library for text preprocessing and the scikit-learn library for the grid search, which allows for tuning hyperparameters to optimize the model's performance. Random search is also an option for tuning hyperparameters, which may be faster than grid search. The idea I had behind this sentiment analysis model was to provide a powerful tool for understanding public opinion on social media, which can be helpful for businesses, governments, and researchers.
 
