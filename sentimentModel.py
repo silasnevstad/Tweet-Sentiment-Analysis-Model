@@ -32,7 +32,7 @@ import numpy as np
 # Import the OpenAI API client
 # import openai
 
-# openai.api_key = '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'
+# openai.api_key = 'API-KEY-HERE'
 
 # start time 
 start_time = time.time()
